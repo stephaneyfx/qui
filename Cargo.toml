@@ -1,0 +1,16 @@
+[package]
+name = "qui"
+version = "0.1.0"
+authors = ["Stephane Raux <stephaneyfx@gmail.com>"]
+description = "GUI library using QML"
+license = "MIT"
+homepage = "https://github.com/stephaneyfx/qui"
+repository = "https://github.com/stephaneyfx/qui.git"
+keywords = ["GUI", "QML"]
+
+[dependencies]
+clue-sys = {path = "../clue-sys"}
+lazy_static = "0.2.8"
+log = "0.3.8"
+qlue-sys = {path = "../qlue-sys"}
+url = "1.5.1"
